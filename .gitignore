@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# etc
+*.csv
+
+# 자동 생성 에이전트 결과
+agents/01_grader/grade_result_*.json
+agents/05_mistake_analyzer/analysis_*.json
+
+# 강의 참고자료 (Google Drive 원본 유지)
+references/
+
+# Cowork 세션 설정
+.claude/
